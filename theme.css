@@ -87,7 +87,7 @@ blockquote:before {
   background-image: url("pictures/bg1.jpg");
 }
 .bgi:nth-child(4n+1) {
-  background-image: url("pictures/bg2.jpg");
+  background-image: url("pictures/	bg2.jpg");
 }
 .bgi:nth-child(4n+2) {
   background-image: url("pictures/bg7.jpg");
@@ -284,11 +284,12 @@ blockquote:before {
 }
 .slide.label-header h2.shout {
   margin-left: 0;
-  padding: 20px 0;
-  font-size: 52px;
+  padding: 20px 1em;
+  font-size: 47px;
   color: #efefef;
   border: none;
   background: none;
+  box-sizing: border-box;
 }
 .slide.label-header.bg h2 {
   background: none;
